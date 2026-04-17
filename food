@@ -1,17 +1,37 @@
+<!DOCTYPE html>
 <html>
 <head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "wcxvjlvrzd");
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "wcxvjlvrzd");
 </script>
+
 <title>Food</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+</style>
+
 </head>
 <body>
+
 <h1>Food</h1>
-<p>Food food food food food</p>
-<button>Order</button>
+<p>Delicious meals delivered to your doorstep.</p>
+<button onclick="alert('Order placed!')">Order</button>
+
 </body>
 </html>
